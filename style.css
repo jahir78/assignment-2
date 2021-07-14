@@ -15,17 +15,29 @@ body{
 
 align-items: flex-start;
 align-content: center;
-margin: 70px 180px 20px 150px;
-
-
-
+margin: 70px 180px 20px 180px;
+}
+ .flex-containers{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:3px ;
+    margin: 20px 210px 20px 180px;
+    align-items: flex-start;
+align-content: center;
+    
+}
+.flex-containers .many-players{
+    padding: 15px 10px 15px 15px;
+    width: 305px;
+    margin-bottom: -25px;
+    
 }
 .many-players{
     width: 330px;
     height:474px;
     padding: 15px;
-    border: 1px solid blue;
-    margin: 0 15px 0 15px;
+    border: 1px solid;
+    margin: 20px 15px 20px 15px;
     box-shadow: 10px 10px 10px 10px grey;
 }
 /* players section */
