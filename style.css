@@ -1,14 +1,75 @@
-/* font  */
+/*------------- font
+---------------------  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /* common styles */
 body{
     background-color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;  
     height: 3750px;
     width: 1440px;
+    margin: 0px;
 }
-/* flex-container */
+ /* common styles end  */
+
+ /* header styles start  */
+ .top-banner{
+     background-color: #2D25A0;
+     width: 1440px;
+     height: 677px;
+     left: 0px;
+     top: 0px; }
+ .top-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.info h1{
+    
+      position: absolute;
+      width: 485px;
+      height: 230px;
+      left: 156px;
+      top: 207px;
+      margin: 0px;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 80px;
+      color: white;
+      transition: all 1s;
+}
+
+
+.info-title>span:first-child{
+    position: relative;
+    z-index: 2;
+}
+.info-title:hover{
+    transform: rotateY(180deg);
+}
+
+.info a{
+    position: absolute;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 464px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    background: #E02C6D;
+}
+ .banner img{ 
+    position: absolute;
+    width: 556.01px;
+    height: 438px;
+    left: 743px;
+    top: 153px;
+    margin: 0px;
+    padding: 0px;
+ }
+/* /* flex-container  */
 .flex-container{
     display: flex;
     display: flex;
@@ -53,3 +114,53 @@ align-content: center;
     font-size: 16px;
     text-align: justify;
 }
+/* media start */
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+iframe{
+    padding:00px ;
+
+}
+/* media end  */
+}
+  /* footers styles start */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 483.87px;
+    height: 213px;
+}
+.footers img{
+    position: static;
+    width: 483.87px;
+    height: 110px;
+    left: 0px;
+    padding: 18px 100px 8px 475px;
+
+}
+.social-icon {
+    width: 170px;
+    height: 32px;
+    padding:0px 632px 0px 638px;
+    color: gray;
+} 
+.social-icon .fa-facebook-square,
+.fa-twitter,.fa-google-plus-square,.fa-share {
+    width: 32px;
+    height: 32px;
+    
+}
+.footers .copy-right p{
+    margin-left: 600px;
+    font-size: 18px;
+     line-height: 24px;
+} 
+/* footers styles end  */
